@@ -34,27 +34,27 @@ class LinebotController < ApplicationController
       "type": "image_carousel",
       "columns": [
           {
-            "imageUrl": "https://example.com/bot/images/item1.jpg",
+            "imageUrl": "https://example.com/bot/images/item2.jpg",
             "action": {
-              "type": "postback",
-              "label": "Buy",
-              "data": "action=buy&itemid=111"
+              "type": "message",
+              "label": "年金申請書",
+              "text": "年金申請書を書きます"
             }
           },
           {
             "imageUrl": "https://example.com/bot/images/item2.jpg",
             "action": {
               "type": "message",
-              "label": "Yes",
-              "text": "yes"
+              "label": "問診表",
+              "text": "問診表を書きます"
             }
           },
           {
-            "imageUrl": "https://example.com/bot/images/item3.jpg",
+            "imageUrl": "https://example.com/bot/images/item2.jpg",
             "action": {
-              "type": "uri",
-              "label": "View detail",
-              "uri": "http://example.com/page/222"
+              "type": "message",
+              "label": "要介護申請書",
+              "text": "要介護申請書を書きます"
             }
           }
       ]
